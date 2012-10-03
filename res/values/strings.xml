@@ -1,8 +1,9 @@
 <resources>
 
-    <string name="app_name">Hi</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Lin App</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">AppLin</string>
+    <string name="edit_text">Type something here...</string>
+    <string name="send">Send</string>
 
 </resources>

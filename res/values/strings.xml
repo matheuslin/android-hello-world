@@ -5,5 +5,17 @@
     <string name="title_activity_main">AppLin</string>
     <string name="edit_text">Type something here...</string>
     <string name="send">Send</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_message">Message</string>
+    <string name="yes">OK!</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="getPosition">Localizar</string>
+    <string name="latitude">Latitude: </string>
+    <string name="longitude">Longitude: </string>
+    <string name="empty">-</string>
+    <string name="title_activity_tutorial_app">TutorialApp</string>
+    <string name="locator">Localizador</string>
+    <string name="tutorial">Tutorial App</string>
+    <string name="menu">Escolha a atividade:</string>
 
 </resources>

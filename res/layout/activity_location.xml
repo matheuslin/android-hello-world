@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <!-- Latitude -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,6 +19,7 @@
         android:layout_marginLeft="10dp"
         tools:context=".LocationActivity" />
     
+    <!-- Longitude -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,11 +34,120 @@
         android:layout_marginLeft="10dp"
         tools:context=".LocationActivity" />
     
-    <Button
-        android:layout_width="fill_parent"
+    <!-- TimeStamp -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timestamp"
+        tools:context=".LocationActivity" />
+    
+    <TextView
+        android:id="@+id/timeStampValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:layout_marginLeft="10dp"
+        tools:context=".LocationActivity" />
+    
+    <!-- Provider Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/providerName"
+        tools:context=".LocationActivity" />
+    
+    <TextView
+        android:id="@+id/providerNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:layout_marginLeft="10dp"
+        tools:context=".LocationActivity" />
+    
+    <!-- Accuracy -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accuracy"
+        tools:context=".LocationActivity" />
+    
+    <TextView
+        android:id="@+id/accuracyValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:layout_marginLeft="10dp"
+        tools:context=".LocationActivity" />
+    
+    <!-- Altitude -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/altitude"
+        tools:context=".LocationActivity" />
+    
+    <TextView
+        android:id="@+id/altitudeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:layout_marginLeft="10dp"
+        tools:context=".LocationActivity" />
+    
+    <!-- Bearing -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bearing"
+        tools:context=".LocationActivity" />
+    
+    <TextView
+        android:id="@+id/bearingValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:layout_marginLeft="10dp"
+        tools:context=".LocationActivity" />
+    
+    <!-- Speed -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/speed"
+        tools:context=".LocationActivity" />
+    
+    <TextView
+        android:id="@+id/speedValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:layout_marginLeft="10dp"
+        tools:context=".LocationActivity" />
+    
+    <!-- Bundle KeySet -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bundleKeySet"
+        tools:context=".LocationActivity" />
+    
+    <TextView
+        android:id="@+id/bundleKeySetValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:layout_marginLeft="10dp"
+        tools:context=".LocationActivity" />
+    
+	<!-- Do-nothing-yet button -->
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:text="@string/getPosition"
-        android:onClick="getLocation" />
+        android:textOn="@string/gps_on"
+        android:textOff="@string/gps_off"
+        android:checked="false"
+        android:onClick="toggleGPSButton" />
 
 </LinearLayout>

@@ -10,12 +10,21 @@
     <string name="yes">OK!</string>
     <string name="title_activity_location">LocationActivity</string>
     <string name="getPosition">Localizar</string>
-    <string name="latitude">Latitude: </string>
-    <string name="longitude">Longitude: </string>
     <string name="empty">-</string>
     <string name="title_activity_tutorial_app">TutorialApp</string>
     <string name="locator">Localizador</string>
     <string name="tutorial">Tutorial App</string>
     <string name="menu">Escolha a atividade:</string>
-
+    
+    <string name="latitude">Latitude: </string>
+    <string name="longitude">Longitude: </string>
+    <string name="timestamp">Time Stamp:</string>
+    <string name="providerName">Provider Name: </string>
+    <string name="accuracy">Accuracy: </string>
+    <string name="altitude">Altitude:</string>
+    <string name="bearing">Bearing: </string>
+    <string name="speed">Speed: </string>
+    <string name="bundleKeySet">BundleKeySet:</string>
+    <string name="gps_on">GPS Ligado</string>
+    <string name="gps_off">GPS Desligado</string>
 </resources>
